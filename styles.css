@@ -1,1 +1,37 @@
 /*Reset Styles*/
+html{
+	font-size: 12px;
+}
+@-ms-viewport{
+  width: device-width;
+}
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+img.logo{
+	float: left;
+}
+nav{
+	display: none;
+}
+
+
+
+
+/*Break Points*/
+@media screen and (min-width: 480px), print{
+	
+}
+
+@media screen and (min-width: 720px), print{
+	
+}
+
+@media screen and (min-width: 1280px), print{
+	nav{
+		display: inline-block;
+		font-size: 1.5em;
+	}
+}
