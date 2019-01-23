@@ -24,6 +24,14 @@
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Local fallback -->
+    <script>
+      if (! $.fn.modal) {
+        document.write('<script src="jquery-3.3.1.min.js"></script>');
+        document.write('<link rel="stylesheet" href="jquery-3.3.1.min.css">');
+      }
+    </script>
   <link rel="shortcut icon" href="Images/Logo/favicon.ico">
   <link rel="apple-touch-icon" href="Images/Logo/apple-touch-icon.png">
   <link rel="icon" sizes="192x192" href="Images/Logo/android.png">
