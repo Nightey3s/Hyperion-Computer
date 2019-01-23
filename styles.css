@@ -9,29 +9,110 @@ html{
 	border: 0;
 	margin: 0;
 	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+a:link{
+	text-decoration: none;
+	color: #FFF;
+}
+
+article.top{
+	background-color: #000;
+	height: 175px;
 }
 img.logo{
 	float: left;
+	margin-left: 3%;
+	margin-top: 25px;
+	width: 300px;
 }
-nav{
+button.Hamburg {
+	display: inline-block;
+	margin-top: 25px;
+	float: right;
+	margin-right: 10%;
+
+}
+button.dropdown-menu{
 	display: none;
 }
+nav a{
+	display: none;
+}
+img.hamburgpic{
+	width: 70px;
+}
+img.homeimage{
+	width: 100%;
+}
 
-
+footer{
+	background-color: #CB0000;
+	width: 100%;
+}
+footer p{
+	padding: 10px 0;
+	font-size: 1.2em;
+}
+p.location{
+	padding-left: 60%;
+}
+p.trademark{
+	float: left;
+}
 
 
 /*Break Points*/
 @media screen and (min-width: 480px), print{
-	
+
 }
 
 @media screen and (min-width: 720px), print{
-	
+	img.hamburgpic{
+		width: 100px;
+	}
+	img.logo{
+		width: 300px;
+	}
 }
 
 @media screen and (min-width: 1280px), print{
-	nav{
+	button.Hamburg{
+		display: none;
+	}
+	button.dropdown-menu{
 		display: inline-block;
-		font-size: 1.5em;
+		outline: none;
+		background-color: inherit;
+		color: #FFF;
+		font-size: 1em;
+	}
+	div.dropdown-menu-items a:link{
+		display:none;
+	}
+
+	nav{
+		padding-left: 25%;
+		font-size: 2.5em;
+	}
+	nav a{
+		display: inline-block;
+		margin: 25px 0 0 0;
+		padding: 40px 30px 40px 30px;
+		color: #FFF;
+	}
+	button{
+		padding: 40px 30px 40px 30px;
+	}
+	nav a:link a:visited{
+		text-decoration: none;
+		text-color: #FFF;
+	}
+	nav a:hover{
+		background-color: #C43612;
+	}
+	button:hover{
+		background-color: #C43612;
+
 	}
 }
