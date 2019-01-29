@@ -47,6 +47,20 @@ button.Hamburg {
 .dropbtn{
 	display: none;
 }
+section h1{
+	text-align: center;
+	margin: 1% 0% 1% 0%;
+	font-size: 4em;
+}
+section h2{
+	text-align: center;
+	margin: 1% 0% 1% 0%;
+	font-size: 2em;
+}
+article.Thanks{
+	text-align: center;
+	font-size: 1.8em;
+}
 
 nav a{
 	display: none;
@@ -95,10 +109,12 @@ footer{
 	width: 100%;
 	max-height: 100%;
 	color: #FFF;
+	position: sticky;
+	bottom: 0;
 }
 footer p{
 	text-align: center;
-	padding: 10px 0 10px 0;
+	padding: 5px 0 5px 0;
 	font-size: 1.2em;
 }
 
@@ -149,7 +165,7 @@ textarea{
   right: 51%;
   bottom: 0;
   background: #C43612;
-  height: 6px;
+  height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.4s;
@@ -216,7 +232,11 @@ textarea{
 
 	nav{
 		padding-left: 25%;
-		font-size: 2.5em;
+		font-size: 2.05em;
+	}
+	#Shopping-Cart{
+		height: 50px;
+		width: 50px;
 	}
 	nav a{
 		display: inline-block;
