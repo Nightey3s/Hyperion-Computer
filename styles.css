@@ -209,23 +209,23 @@ textarea{
 
 	.dropdown-content li{
 		list-style-type: none;
-		display: block;
+		display: inline-block;
 	}
 
 	/* Links inside the dropdown */
 	.dropdown-content a {
 	  color: #FFF;
-	  padding: 12px 16px;
+	  padding: 12px 40px;
 	  text-decoration: none;
-	  display: block;
-		font-size: 0.8em;
+	  display: inline-block;
+		font-size: 1em;
 	}
 
 	/* Change color of dropdown links on hover */
 	.dropdown-content a:hover {background-color: #444; }
 
 	/* Show the dropdown menu on hover */
-	.dropdown:hover .dropdown-content {display: inline-flex;}
+	.dropdown:hover .dropdown-content  {display: flex; position: relative;}
 
 	/* Change the background color of the dropdown button when the dropdown content is shown */
 	.dropdown:hover .dropbtn {padding: 40px 30px 40px 30px;}
@@ -237,6 +237,7 @@ textarea{
 	#Shopping-Cart{
 		height: 50px;
 		width: 50px;
+		display: inline-block;
 	}
 	nav a{
 		display: inline-block;
@@ -247,6 +248,7 @@ textarea{
 	.dropdownimg{
 		width: 120px;
 		height: 150px;
+		margin: 1px;
 	}
 	button.dropbtn{
 		padding: 40px 30px 40px 30px;
@@ -285,10 +287,10 @@ select{
 }
 
 	footer p{
-		font-size: 1.5em;
+		font-size: 1.35em;
 	}
 	p.location{
-		padding-left: 70%;
+		padding-left: 75%;
 		min-height: 20px;
 	}
 	p.trademark{
