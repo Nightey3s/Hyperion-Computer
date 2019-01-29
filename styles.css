@@ -61,10 +61,33 @@ section.Form{
 	background-color: #303030;
 }
 form.getaquote{
-	margin: 2% 0% 2% 30%;
+	margin: 2% 0% 2% 25%;
+
+}
+.button {
+	border-radius: 100px;
+  background-color: #666;
+  border: none;
+  color: #FFF;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 2px 2px;
+
+}
+::placeholder{
+	color: #BBB;
 }
 #Form_Image{
 	display: none;
+}
+fieldset{
+	border: 2px solid #000;
+	border-width: thin;
+	width: 70%;
+	padding: 10px;
 }
 
 footer{
@@ -81,7 +104,9 @@ footer p{
 
 /*Break Points*/
 @media screen and (min-width: 480px), print{
-
+textarea{
+	width: 25em;
+}
 }
 
 @media screen and (min-width: 720px), print{
@@ -90,6 +115,9 @@ footer p{
 	}
 	img.logo{
 		width: 300px;
+	}
+	textarea{
+		width: 40em;
 	}
 	#Form_Image{
 		display: block;
@@ -221,15 +249,21 @@ footer p{
 	form.getaquote{
 		font-size: 2em;
 	}
+	legend.formLegend{
+		font-size: 1.5em;
+	}
 	input{
     font-size:0.9em;
 }
-fieldset{
-	border: 2px solid #000;
-	border-width: thin;
-	width: 70%;
-	padding: 10px;
+textarea{
+	font-size: 0.7em;
+	resize: none;
+	width: 40em;
 }
+select{
+	font-size: 0.7em;
+}
+
 	footer p{
 		font-size: 1.5em;
 	}

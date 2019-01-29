@@ -43,33 +43,34 @@
               <div class="dropdown">
                 <button class="dropbtn">Products</button>
                   <div class="dropdown-content">
-                      <li><a class="hvr-underline-from-center" href="Janus.html"><img class="dropdownimg" src="Images/Janus/Janus_1.png" alt="Janus">Janus</a></li>
-                      <li><a class="hvr-underline-from-center" href="Apollo.html"><img class="dropdownimg" src="Images/Apollo/Apollo_1.png" alt="Apollo">Apollo</a></li>
-                      <li><a class="hvr-underline-from-center" href="Ares.html"><img class="dropdownimg" src="Images/Ares/Ares_1.png" alt="Ares">Ares</a></li>
-                      <li><a class="hvr-underline-from-center" href="Poseidon.html"><img class="dropdownimg" src="Images/Poseidon/Poseidon_1.png" alt="Poseidon">Poseidon</a></li>
-                      <li><a class="hvr-underline-from-center" href="Zeus.html"><img class="dropdownimg" src="Images/Zeus/Zeus_1.png" alt="Zeus">Zeus</a></li>
-                      <li ><a class="hvr-underline-from-center" href="Hades.html"><img class="dropdownimg" src="Images/Hades/Hades_1.png" alt="Hades">Hades</a></li>
+                      <li><a class="hvr-underline-from-center" href="Janus.html"><img class="dropdownimg" src="Images/Janus/Janus_1.png" alt="Janus" title="Janus">Janus</a></li>
+                      <li><a class="hvr-underline-from-center" href="Apollo.html"><img class="dropdownimg" src="Images/Apollo/Apollo_1.png" alt="Apollo" title="Apollo">Apollo</a></li>
+                      <li><a class="hvr-underline-from-center" href="Ares.html"><img class="dropdownimg" src="Images/Ares/Ares_1.png" alt="Ares" title="Ares">Ares</a></li>
+                      <li><a class="hvr-underline-from-center" href="Poseidon.html"><img class="dropdownimg" src="Images/Poseidon/Poseidon_1.png" alt="Poseidon" title="Poseidon">Poseidon</a></li>
+                      <li><a class="hvr-underline-from-center" href="Zeus.html"><img class="dropdownimg" src="Images/Zeus/Zeus_1.png" alt="Zeus" title="Zeus">Zeus</a></li>
+                      <li ><a class="hvr-underline-from-center" href="Hades.html"><img class="dropdownimg" src="Images/Hades/Hades_1.png" alt="Hades" title="Hades">Hades</a></li>
                   </div>
               </div>
               <a class="hvr-underline-from-center" href="Custom_Quote.html">Custom Quote</a>
               <a class="hvr-underline-from-center" href="aboutus.html">About Us</a>
     			    <a class="hvr-underline-from-center" href="FAQ.html">F.A.Q</a>
+              <a href="" class="hvr-underline-from-center"><img src="Images/Shopping_Cart.png" alt="View Cart"></a>
     		</nav>
       </article>
 	</header>
     <main>
         <section class="Form">
-          <img id="Form_Image" src="Images/Background.jpg">
+          <img id="Form_Image" src="Images/Background.jpg" alt="Header Image">
         </section>
         <article>
           <h1>
             Get a quote
           </h1>
-            <form class="getaquote">
+            <form action="thankyou.html" class="getaquote">
               <fieldset>
                 <legend class="formLegend">Personal Details</legend>
-                  Name: <input type="text"><br><br>
-                  Email: <input type="email"><br>
+                  Name:<input type="text" name="Name" placeholder="Enter your name"><br><br>
+                  Email:<input type="email" name="Email" placeholder="Enter your email"><br>
               </fieldset><br>
               <fieldset>
                 <legend class="formLegend">
@@ -86,7 +87,7 @@
               			<option value="Mod">Mod</option>
 		              </select><br><br>
                   Location:<br>
-                  <select>
+                  <select name="Country">
                   	<option value="">Select Your Country</option>
                   	<option value="AF">Afghanistan</option>
                   	<option value="AX">Åland Islands</option>
@@ -338,8 +339,8 @@
                   	<option value="ZM">Zambia</option>
                   	<option value="ZW">Zimbabwe</option>
                   </select><br><br>
-                  What is your estimated budget?(USD$)<br>
-                  <select>
+                    What is your estimated budget?(USD$)<br>
+                  <select name="Budget">
                 		<option value="">Select your budget</option>
                 		<option value="500~1k">500 ~ 1,000</option>
                 		<option value="1k~2k">1,000 ~ 2,000</option>
@@ -349,8 +350,12 @@
                 	</select><br><br>
                     What is your intended use for the build?
                      <br>
-                      <textarea rows="10" cols="100" name="Purpose" placeholder="Enter your usage scenario for the computer, such as the tasks you need it to perform and any size limitations"></textarea>
-              </fieldset>
+                      <textarea rows="10" name="Purpose" placeholder="Enter your usage scenario for the computer, such as the tasks you need it to perform and any size limitations"></textarea>
+                      <br>
+                      Upload your ideas/concept<br>
+                      <input class="button" type="file" name="ConceptFile">
+              </fieldset><br>
+              <button class="button">Submit</button>
             </form>
         </article>
     </main>
