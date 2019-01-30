@@ -48,16 +48,20 @@ button.Hamburg {
 	display: none;
 }
 main h1{
-	text-align: center;
 	text-decoration: underline;
-	margin: 2% 0% 3% 0%;
+	margin: 2.5% 20%;
 }
-
+hr{
+	border-top: 2px solid red;
+	margin: 0% 20%;
+}
 main h2{
 	margin: 1% 20% 1% 20%;
+	opacity: 0.65;
 }
 article h3{
-	margin: 3% 0% 0% 18%;
+	margin: 3% 0% 0% 20%;
+	text-decoration: underline overline;
 }
 article.qn{
 	margin: 1% 20% 1% 20%;
@@ -306,6 +310,7 @@ textarea{
 	main h1{
 		font-size: 4em;
 	}
+
 	main h2{
 		font-size: 2.5em;
 	}
@@ -313,7 +318,7 @@ textarea{
 		font-size: 4em;
 	}
 	article h3{
-		font-size: 1.9em;
+		font-size: 2.3em;
 	}
 	article.qn{
 		font-size: 1.5em;
