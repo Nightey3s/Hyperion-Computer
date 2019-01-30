@@ -169,6 +169,18 @@ textarea{
 		margin-right: auto;
 		background-color: inherit;
 	}
+	main h1{
+		font-size: 2.7em;
+	}
+	main h2{
+		font-size: 2em;
+	}
+	article h3{
+		font-size: 1.5em;
+	}
+	article.qn{
+		font-size: 1.2em;
+	}
 }
 
 @media screen and (min-width: 1280px), print{
