@@ -61,10 +61,10 @@ article h3{
 }
 article.qn{
 	margin: 1% 20% 1% 20%;
-	background-color: #DADADA;
+	background-color: #CFCFCF;
 	border-width: 20px 20px 5px 20px;
 	border-style: solid;
-	border-color: #DADADA;
+	border-color: #CFCFCF;
 }
 aside.toggle-content{
 	display: none;
