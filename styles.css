@@ -4,7 +4,6 @@ html{
 }
 @-ms-viewport{
   width: device-width;
-	height: device-height;
 }
 *{
 	border: 0;
@@ -52,7 +51,7 @@ main h1{
 	margin: 2.5% 20%;
 }
 hr{
-	border-top: 2px solid red;
+	border-top: 2px solid #F00;
 	margin: 0% 20%;
 }
 main h2{
