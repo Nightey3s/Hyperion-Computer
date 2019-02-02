@@ -27,7 +27,7 @@ article.top{
 article h1{
 	text-align: center;
 	font-size: 2em;
-	text-decoration: overline underline;
+	text-decoration: underline overline;
 	margin: 2% 0% 2% 0%;
 }
 img.logo{
@@ -101,7 +101,7 @@ img.homeimage{
 	width: 100%;
 }
 section.Form{
-	background-color: #303030;
+	background-color: #101010;
 }
 form.getaquote{
 	margin: 2% 0% 2% 25%;
@@ -125,6 +125,7 @@ form.getaquote{
 }
 #Form_Image{
 	display: none;
+	opacity: 0.75;
 }
 fieldset{
 	border: 2px solid #000;
@@ -283,7 +284,7 @@ textarea{
 	nav a{
 		display: inline-block;
 		margin: 25px 0 0 0;
-		padding: 40px 30px 40px 30px;
+		padding: 40px 20px 40px 20px;
 		color: #FFF;
 	}
 	.dropdownimg{
@@ -314,7 +315,7 @@ textarea{
 		font-size: 2.3em;
 	}
 	article h1{
-		font-size: 4em;
+		font-size: 4.5em;
 	}
 	article h3{
 		font-size: 2.3em;
