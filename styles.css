@@ -73,6 +73,19 @@ aside.toggle-content{
 	display: none;
 	margin-bottom: 2%;
 }
+form.indexbutt{
+	text-align: center;
+}
+#Getstarted{
+	border-radius: 100px;
+	background-color: #666;
+	margin-bottom: 1%;
+	border: none;
+	color: #FFF;
+	padding: 10px 390px;
+	text-align: center;
+	font-size: 1.5em;
+}
 article h4{
 	margin: 0% 0% 3% 0%;
 }
@@ -481,6 +494,8 @@ textarea{
 	.viewbox{position:absolute;top:0;left:0;width:100%;height:100%;}
 	#leftarrow{width:55px;height:55px;top:0px;left:25px;}
 	#rightarrow{width:55px;height:55px;top:0px;right:25px;}
+	#leftarrow2{width:55px;height:55px;top:0px;left:25px;}
+	#rightarrow2{width:55px;height:55px;top:0px;right:25px;}
 
 textarea{
 	font-size: 0.7em;
