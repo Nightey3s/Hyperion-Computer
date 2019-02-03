@@ -75,17 +75,9 @@ aside.toggle-content{
 }
 form.indexbutt{
 	text-align: center;
+	max-width: 100%;
 }
-#Getstarted{
-	border-radius: 100px;
-	background-color: #666;
-	margin-bottom: 1%;
-	border: none;
-	color: #FFF;
-	padding: 10px 390px;
-	text-align: center;
-	font-size: 1.5em;
-}
+
 article h4{
 	margin: 0% 0% 3% 0%;
 }
@@ -198,7 +190,168 @@ textarea{
 	article.qn{
 		font-size: 1.2em;
 	}
+	/*jssor slider loading skin spin css*/
+	#jssor_1{
+		position:relative;
+		margin:1% auto;
+		top:0px;
+		left:0px;
+		width:980px;
+		height:640px;
+		overflow:hidden;
+		visibility:hidden;
+	}
+	  .jssorl-009-spin img {
+	      animation-name: jssorl-009-spin;
+	      animation-duration: 1.6s;
+	      animation-iteration-count: infinite;
+	      animation-timing-function: linear;
+				margin-top:-19px;
+				position:relative;
+				top:50%;
+				width:38px;
+				height:38px;
+	  }
+		.jssorl-009-spin{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			text-align:center;
+			background-color:rgba(0,0,0,0.7);
+		}
+		.slide{
+			cursor:default;
+			position:relative;
+			top:0px;
+			left:0px;
+			width:980px;
+			height:640px;
+			overflow:hidden;
+		}
+		#machine{
+			position:absolute;
+			top:320px;
+			left:30px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
+		#dawnofwar{
+			position:absolute;
+			top:-50px;
+			left:125px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
+		#deskpc1{
+			position:absolute;
+			top:30px;
+			left:-505px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
 
+		#ducati{
+			position:absolute;
+			top:30px;
+			left:30px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
+		#Pipboy{
+			position:absolute;
+			top:30px;
+			left:30px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
+		#Joker{
+			position:absolute;
+			top:30px;
+			left:600px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
+
+		#Starwars{
+			position:absolute;
+			top:30px;
+			left:30px;
+			width:500px;
+			height:40px;
+			font-size:32px;
+			font-weight:200;
+			line-height:1.2;
+			text-align:center;
+			background-color:rgba(255,106,0,0.8);
+		}
+	  @keyframes jssorl-009-spin {
+	      from { transform: rotate(0deg); }
+	      to { transform: rotate(360deg); }
+	  }
+
+	  /*jssor slider bullet skin 052 css*/
+		.jssorb052	{position:absolute;bottom:12px;right:12px;}
+	  .jssorb052 .i {position:absolute;cursor:pointer;width:16px;height:16px;}
+	  .jssorb052 .i .b {fill:#D60;fill-opacity:0.3;}
+	  .jssorb052 .i:hover .b {fill-opacity:.7;}
+	  .jssorb052 .iav .b {fill-opacity: 1;}
+	  .jssorb052 .i.idn {opacity:.3;}
+
+	  /*jssor slider arrow skin 053 css*/
+	  .jssora053 {display:block;position:absolute;cursor:pointer;}
+	  .jssora053 .a {fill:none;stroke:#D50;stroke-width:1000;stroke-miterlimit:10;}
+	  .jssora053:hover {opacity:.8;}
+	  .jssora053.jssora053dn {opacity:.5;}
+	  .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+		.viewbox{position:absolute;top:0;left:0;width:100%;height:100%;}
+		#leftarrow{width:55px;height:55px;top:0px;left:25px;}
+		#rightarrow{width:55px;height:55px;top:0px;right:25px;}
+		#leftarrow2{width:55px;height:55px;top:0px;left:25px;}
+		#rightarrow2{width:55px;height:55px;top:0px;right:25px;}
+
+		#Getstarted{
+			border-radius: 100px;
+			background-color: #666;
+			margin-bottom: 1%;
+			border: none;
+			color: #FFF;
+			padding: 10px 250px;
+			text-align: center;
+			font-size: 1.5em;
+			max-width: 100%;
+		}
 }
 
 @media screen and (min-width: 1280px), print{
@@ -286,6 +439,17 @@ textarea{
 	/* Change the background color of the dropdown button when the dropdown content is shown */
 	.dropdown:hover .dropbtn {padding: 40px 30px 40px 30px;}
 
+	#Getstarted{
+		border-radius: 100px;
+		background-color: #666;
+		margin-bottom: 1%;
+		border: none;
+		color: #FFF;
+		padding: 10px 390px;
+		text-align: center;
+		font-size: 1.5em;
+		max-width: 100%;
+	}
 	nav{
 		padding-left: 25%;
 		font-size: 2.05em;
@@ -346,156 +510,6 @@ textarea{
 	input{
     font-size:0.9em;
 }
-/*jssor slider loading skin spin css*/
-#jssor_1{
-	position:relative;
-	margin:1% auto;
-	top:0px;
-	left:0px;
-	width:980px;
-	height:640px;
-	overflow:hidden;
-	visibility:hidden;
-}
-  .jssorl-009-spin img {
-      animation-name: jssorl-009-spin;
-      animation-duration: 1.6s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-			margin-top:-19px;
-			position:relative;
-			top:50%;
-			width:38px;
-			height:38px;
-  }
-	.jssorl-009-spin{
-		position:absolute;
-		top:0px;
-		left:0px;
-		width:100%;
-		height:100%;
-		text-align:center;
-		background-color:rgba(0,0,0,0.7);
-	}
-	.slide{
-		cursor:default;
-		position:relative;
-		top:0px;
-		left:0px;
-		width:980px;
-		height:640px;
-		overflow:hidden;
-	}
-	#machine{
-		position:absolute;
-		top:320px;
-		left:30px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-	#dawnofwar{
-		position:absolute;
-		top:-50px;
-		left:125px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-	#deskpc1{
-		position:absolute;
-		top:30px;
-		left:-505px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-
-	#ducati{
-		position:absolute;
-		top:30px;
-		left:30px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-	#Pipboy{
-		position:absolute;
-		top:30px;
-		left:30px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-	#Joker{
-		position:absolute;
-		top:30px;
-		left:600px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-
-	#Starwars{
-		position:absolute;
-		top:30px;
-		left:30px;
-		width:500px;
-		height:40px;
-		font-size:32px;
-		font-weight:200;
-		line-height:1.2;
-		text-align:center;
-		background-color:rgba(255,106,0,0.8);
-	}
-  @keyframes jssorl-009-spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-  }
-
-  /*jssor slider bullet skin 052 css*/
-	.jssorb052	{position:absolute;bottom:12px;right:12px;}
-  .jssorb052 .i {position:absolute;cursor:pointer;width:16px;height:16px;}
-  .jssorb052 .i .b {fill:#D60;fill-opacity:0.3;}
-  .jssorb052 .i:hover .b {fill-opacity:.7;}
-  .jssorb052 .iav .b {fill-opacity: 1;}
-  .jssorb052 .i.idn {opacity:.3;}
-
-  /*jssor slider arrow skin 053 css*/
-  .jssora053 {display:block;position:absolute;cursor:pointer;}
-  .jssora053 .a {fill:none;stroke:#D50;stroke-width:1000;stroke-miterlimit:10;}
-  .jssora053:hover {opacity:.8;}
-  .jssora053.jssora053dn {opacity:.5;}
-  .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
-	.viewbox{position:absolute;top:0;left:0;width:100%;height:100%;}
-	#leftarrow{width:55px;height:55px;top:0px;left:25px;}
-	#rightarrow{width:55px;height:55px;top:0px;right:25px;}
-	#leftarrow2{width:55px;height:55px;top:0px;left:25px;}
-	#rightarrow2{width:55px;height:55px;top:0px;right:25px;}
 
 textarea{
 	font-size: 0.7em;
