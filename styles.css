@@ -82,7 +82,7 @@ main h2{
 }
 article h3{
 	margin: 3% 0% 0% 20%;
-	text-decoration: underline overline;
+	text-decoration: underline;
 }
 article.qn{
 	margin: 1% 20% 1% 20%;
