@@ -172,7 +172,7 @@ form.getaquote{
 }
 #Form_Image{
 	display: none;
-	opacity: 0.75;
+	opacity: 0.85;
 }
 fieldset{
 	border: 2px solid #000;
