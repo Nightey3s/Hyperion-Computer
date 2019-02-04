@@ -20,13 +20,16 @@ a:link{
 	color: #FFF;
 }
 #Focus{
-	margin: 1% 15%;
+	margin: 1% 11%;
 	text-align: left;
 	text-decoration: none;
 }
 #About{
 	border-top: 2px solid #F00;
 	margin: 0% 11%;
+}
+section.Moreaboutus{
+	margin: 5% 0%;
 }
 
 article.top{
@@ -64,6 +67,9 @@ section h1{
 }
 .About-us{
 	margin: 2% 15%;
+}
+.About-us h1{
+	margin: 4% 0%;
 }
 
 hr{
