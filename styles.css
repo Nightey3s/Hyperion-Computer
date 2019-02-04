@@ -62,7 +62,7 @@ main h1{
 	text-decoration: none;
 	margin: 2.5% 20%;
 }
-section h1{
+section.About-us h1{
 	text-decoration: underline;
 }
 .About-us{
