@@ -50,6 +50,13 @@ main h1{
 	text-decoration: none;
 	margin: 2.5% 20%;
 }
+section h1{
+	text-decoration: underline;
+}
+.About-us{
+	margin: 1% 20%;
+}
+
 hr{
 	border-top: 2px solid #F00;
 	margin: 0% 20%;
@@ -68,6 +75,26 @@ article.qn{
 	border-width: 20px 20px 5px 20px;
 	border-style: solid;
 	border-color: #CFCFCF;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: auto;
+  background-color: #FFF;
+  padding: 10px;
+	margin: 0% 8%;
+}
+.grid-item {
+	margin: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.imageingrid{
+ 		width: 100%;
 }
 aside.toggle-content{
 	display: none;
@@ -158,6 +185,16 @@ footer p{
 textarea{
 	width: 25em;
 }
+.About-us p{
+font-size: 2em;
+margin: 1%;
+}
+aside h4{
+	font-size: 0.4em;
+}
+p.moredesc{
+	font-size: 0.2em;
+}
 }
 
 @media screen and (min-width: 720px), print{
@@ -169,6 +206,9 @@ textarea{
 	}
 	textarea{
 		width: 40em;
+	}
+	aside h4{
+		font-size: 0.7em;
 	}
 	#Form_Image{
 		display: block;
@@ -352,6 +392,13 @@ textarea{
 			font-size: 1.5em;
 			max-width: 100%;
 		}
+		.About-us p{
+		font-size: 2em;
+		margin: 1%;
+		}
+		p.moredesc{
+			font-size: 0.4em;
+		}
 }
 
 @media screen and (min-width: 1280px), print{
@@ -397,6 +444,10 @@ textarea{
 	  border: none;
 		display: inline-block;
 	}
+	.About-us p{
+	font-size: 2.5em;
+	margin: 1%;
+	}
 
 	/* The container <div> - needed to position the dropdown content */
 	.dropdown {
@@ -404,6 +455,9 @@ textarea{
 	  position: static;
 		padding-top: 20px;
 	  display: inline-block  ;
+	}
+	aside h4{
+		font-size: 1.1em;
 	}
 
 	/* Dropdown Content (Hidden by Default) */
@@ -519,7 +573,9 @@ textarea{
 select{
 	font-size: 0.7em;
 }
-
+p.moredesc{
+	font-size: 0.55em;
+}
 	footer p{
 		font-size: 1.35em;
 	}
