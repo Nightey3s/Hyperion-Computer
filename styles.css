@@ -127,7 +127,7 @@ article.qn{
     top:50%;
     left:50%;
     margin-left:-15px;
-    margin-top:-20px;
+    margin-top:-27px;
     height:0;
     width:0;
     border:15px solid transparent;
@@ -139,18 +139,8 @@ article.qn{
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
+		transform: translateY(-10px);
 }
-.hvr-float {
-  display: inline-block;
-  vertical-align: middle;
-
-}
-.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
-}
-
 /*dekstop*/
 .topnav {
   overflow: hidden;
