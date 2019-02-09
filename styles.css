@@ -34,7 +34,7 @@ section.Moreaboutus{
 
 article.top{
 	background-color: #000;
-	height: 175px;
+	height: auto;
 }
 article h1{
 	text-align: center;
@@ -101,7 +101,6 @@ article.qn{
 /*dekstop*/
 .topnav {
   overflow: hidden;
-  max-height: 100%;
   background-color: #000;
 }
 
