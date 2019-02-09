@@ -98,6 +98,84 @@ article.qn{
 	border-color: #CFCFCF;
 }
 
+/*dekstop*/
+.topnav {
+  overflow: hidden;
+  max-height: 100%;
+  background-color: #000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2.5em;
+	margin: 4% 2.2%;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+#shoppingcart{
+	margin-top: 3%;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+	margin: 4% 0%;
+}
+
+.dropdown .dropbtn {
+	font-size: 2.5em;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: inherit;
+  color: #FFF;
+}
+
+.dropdown-content a:hover {
+  background-color: inherit;
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -144,9 +222,6 @@ article.Thanks{
 	font-size: 1.8em;
 }
 
-nav a{
-	display: none;
-}
 img.hamburgpic{
 	width: 70px;
 }
@@ -421,6 +496,34 @@ p.moredesc{
 			font-size: 0.4em;
 		}
 }
+@media screen and (max-width: 1279px), print{
+	/*mobile*/
+	.topnav a:not(:first-child), .dropdown .dropbtn {
+	display: none;
+	}
+	.topnav a.icon {
+	float: right;
+	display: block;
+	}
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+	.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+	display: block;
+	width: 100%;
+	text-align: left;
+	}
+}
 
 @media screen and (min-width: 1280px), print{
 
@@ -469,50 +572,9 @@ p.moredesc{
 	font-size: 2.2em;
 	margin: 1%;
 	}
-
-	/* The container <div> - needed to position the dropdown content */
-	.dropdown {
-		vertical-align: middle;
-	  position: static;
-		padding-top: 20px;
-	  display: inline-block  ;
-	}
 	aside h4{
 		font-size: 1.1em;
 	}
-
-	/* Dropdown Content (Hidden by Default) */
-	.dropdown-content {
-	  display: none;
-	  position: absolute;
-	  background-color: #444;
-	  min-width: 160px;
-	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	  z-index: 1;
-	}
-
-	.dropdown-content li{
-		list-style-type: none;
-		display: inline-block;
-	}
-
-	/* Links inside the dropdown */
-	.dropdown-content a {
-	  color: #FFF;
-	  padding: 12px 40px;
-	  text-decoration: none;
-	  display: inline-block;
-		font-size: 1em;
-	}
-
-	/* Change color of dropdown links on hover */
-	.dropdown-content a:hover {background-color: #444; }
-
-	/* Show the dropdown menu on hover */
-	.dropdown:hover .dropdown-content  {display: flex; position: relative;}
-
-	/* Change the background color of the dropdown button when the dropdown content is shown */
-	.dropdown:hover .dropbtn {padding: 40px 30px 40px 30px;}
 
 	#Getstarted{
 		border-radius: 100px;
@@ -525,21 +587,13 @@ p.moredesc{
 		font-size: 1.5em;
 		max-width: 100%;
 	}
-	nav{
-		padding-left: 25%;
-		font-size: 2.05em;
-	}
+
 	#Shopping-Cart{
 		height: 50px;
 		width: 50px;
 		display: inline-block;
 	}
-	nav a{
-		display: inline-block;
-		margin: 25px 0 0 0;
-		padding: 40px 20px 40px 20px;
-		color: #FFF;
-	}
+
 	.dropdownimg{
 		width: 120px;
 		height: 150px;
