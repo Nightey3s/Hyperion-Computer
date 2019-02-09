@@ -5,11 +5,9 @@ while (formData.indexOf("+") !== -1) {
 }
 formData = decodeURIComponent(formData);
 var formArray = formData.split("&");
-for (var i = 0; i < formArray.length; i++) {
+for (var i = 0, len = formArray.length; i < len; i++) {
    document.write("<p>" + formArray[i] + "</p>");
    if(i === 1){
      document.write("<br>");
    }
 }
-
-
