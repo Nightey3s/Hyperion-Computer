@@ -97,6 +97,36 @@ article.qn{
 	border-style: solid;
 	border-color: #CFCFCF;
 }
+.backtotopbutton {
+    position: fixed;
+    bottom: 3.2%;
+		right: 1%;
+    cursor: pointer;
+    width:100px;
+    height:50px;
+    background-color:#000;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:100% 100% 0% 0%;
+}
+.backtotopbutton span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-15px;
+    margin-top:-20px;
+    height:0;
+    width:0;
+    border:15px solid transparent;
+    border-bottom-color:#FFF;
+}
+.backtotopbutton:hover {
+    background-color:#FF4500;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
 
 /*dekstop*/
 .topnav {
@@ -136,7 +166,7 @@ article.qn{
 	font-size: 2.5em;
   border: none;
   outline: none;
-  color: white;
+  color: #FFF;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -146,15 +176,15 @@ article.qn{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #FFF;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -167,12 +197,14 @@ article.qn{
 }
 
 .dropdown-content a:hover {
-  background-color: inherit;
+  background-color: #FFF;
   color: #000;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50% 50%;
 }
 
 .grid-container {
@@ -267,12 +299,16 @@ footer{
 	max-height: 100%;
 	color: #FFF;
 	position: sticky;
-	bottom: 0;
+	bottom: -0.1;
 }
 footer p{
 	text-align: center;
 	padding: 5px 0 5px 0;
 	font-size: 1.2em;
+}
+footer.smallpage{
+	position: fixed;
+	bottom: 0;
 }
 
 /*Break Points*/
