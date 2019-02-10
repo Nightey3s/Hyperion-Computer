@@ -461,7 +461,7 @@ p.moredesc{
 	float: right;
 	display: block;
 	}
-	.topnav.responsive {position: relative;}
+	.topnav.responsive {position: relative; z-index: 1;}
 	.topnav.responsive .icon {
 	position: absolute;
 	right: 0;
