@@ -386,167 +386,6 @@ p.moredesc{
 	article.qn{
 		font-size: 1.2em;
 	}
-	/*jssor slider loading skin spin css*/
-	#jssor_1{
-		position:relative;
-		margin:1% auto;
-		top:0px;
-		left:0px;
-		width:980px;
-		height:640px;
-		overflow:hidden;
-		visibility:hidden;
-	}
-	#jssor_2{
-		position:relative;
-		margin:1% auto;
-		top:0px;
-		left:0px;
-		width:980px;
-		height:640px;
-		overflow:hidden;
-		visibility:hidden;
-	}
-	  .jssorl-009-spin img {
-	      animation-name: jssorl-009-spin;
-	      animation-duration: 1.6s;
-	      animation-iteration-count: infinite;
-	      animation-timing-function: linear;
-				margin-top:-19px;
-				position:relative;
-				top:50%;
-				width:38px;
-				height:38px;
-	  }
-		.jssorl-009-spin{
-			position:absolute;
-			top:0px;
-			left:0px;
-			width:100%;
-			height:100%;
-			text-align:center;
-			background-color:rgba(0,0,0,0.7);
-		}
-		.slide{
-			cursor:default;
-			position:relative;
-			top:0px;
-			left:0px;
-			width:980px;
-			height:640px;
-			overflow:hidden;
-		}
-		#machine{
-			position:absolute;
-			top:320px;
-			left:30px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-		#dawnofwar{
-			position:absolute;
-			top:-50px;
-			left:125px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-		#deskpc1{
-			position:absolute;
-			top:30px;
-			left:-505px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-
-		#ducati{
-			position:absolute;
-			top:30px;
-			left:30px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-		#Pipboy{
-			position:absolute;
-			top:30px;
-			left:30px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-		#Joker{
-			position:absolute;
-			top:30px;
-			left:600px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-
-		#Starwars{
-			position:absolute;
-			top:30px;
-			left:30px;
-			width:500px;
-			height:40px;
-			font-size:32px;
-			font-weight:200;
-			line-height:1.2;
-			text-align:center;
-			background-color:rgba(255,106,0,0.8);
-		}
-	  @keyframes jssorl-009-spin {
-	      from { transform: rotate(0deg); }
-	      to { transform: rotate(360deg); }
-	  }
-
-	  /*jssor slider bullet skin 052 css*/
-		.jssorb052	{position:absolute;bottom:12px;right:12px;}
-	  .jssorb052 .i {position:absolute;cursor:pointer;width:16px;height:16px;}
-	  .jssorb052 .i .b {fill:#D60;fill-opacity:0.3;}
-	  .jssorb052 .i:hover .b {fill-opacity:.7;}
-	  .jssorb052 .iav .b {fill-opacity: 1;}
-	  .jssorb052 .i.idn {opacity:.3;}
-
-	  /*jssor slider arrow skin 053 css*/
-	  .jssora053 {display:block;position:absolute;cursor:pointer;}
-	  .jssora053 .a {fill:none;stroke:#D50;stroke-width:1000;stroke-miterlimit:10;}
-	  .jssora053:hover {opacity:.8;}
-	  .jssora053.jssora053dn {opacity:.5;}
-	  .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
-		.viewbox{position:absolute;top:0;left:0;width:100%;height:100%;}
-		#leftarrow{width:55px;height:55px;top:0px;left:25px;}
-		#rightarrow{width:55px;height:55px;top:0px;right:25px;}
-		#leftarrow2{width:55px;height:55px;top:0px;left:25px;}
-		#rightarrow2{width:55px;height:55px;top:0px;right:25px;}
-
 		#Getstarted{
 			border-radius: 100px;
 			background-color: #666;
@@ -566,6 +405,52 @@ p.moredesc{
 		p.moredesc{
 			font-size: 0.4em;
 		}
+		/*jssor slider loading skin spin css*/
+	 .jssorl-009-spin img {
+			 animation-name: jssorl-009-spin;
+			 animation-duration: 1.6s;
+			 animation-iteration-count: infinite;
+			 animation-timing-function: linear;
+	 }
+
+	 @keyframes jssorl-009-spin {
+			 from { transform: rotate(0deg); }
+			 to { transform: rotate(360deg); }
+	 }
+
+	 /*jssor slider bullet skin 111 css*/
+	 .jssorb111 .i {position:absolute;color:#fff;text-align:center;cursor:pointer;z-index:0;}
+	 .jssorb111 .i .n {display:none;}
+	 .jssorb111 .i .b {fill:#666;stroke:#FF4500;stroke-width:500;stroke-miterlimit:10;stroke-opacity:.5;}
+	 .jssorb111 .i:hover .b {fill:#fea900;stroke:#666;stroke-width:6000;stroke-opacity:1;}
+	 .jssorb111 .iav .b {fill:#000;stroke-width:6000;stroke-opacity:1;}
+	 .jssorb111 .i.idn {opacity:.3;}
+	 .jssorb111 .iav .n, .jssorb111 .i:hover .n {display:block;}
+
+	 /*jssor slider thumbnail skin 121 css*/
+	 .jssort121 .p {position:absolute;top:0;left:0;border-bottom:1px solid rgba(255,255,255,.2);box-sizing:border-box;color:#fff;background:rgba(0,0,0,.1);opacity:.7;}
+	 .jssort121 .p .t {position:absolute;padding:10px;box-sizing:border-box;top:0;left:0;width:100%;height:100%;line-height:24px;overflow:hidden;}
+	 .jssort121 .p .i {margin-right:10px;position:relative;top:0;left:0;width:96px;height:48px;border:none;float:left;}
+	 .jssort121 .pav, .jssort121 .p:hover {color:#000;background:rgba(255,255,255,.7);}
+	 .jssort121 .p:hover {opacity:.75;}
+	 .jssort121 .pav, .jssort121 .p:hover.pdn {opacity:1;}
+	 .jssort121 .ti {position:relative;font-size:14px;font-weight:bold;}
+	 .jssort121 .d {position:relative;font-size:12px;}
+	 /*.jssort121 .d:before {content:'\a';white-space:pre;}*/
+
+    /*jssor slider bullet skin 052 css*/
+    .jssorb052 .i {position:absolute;cursor:pointer;}
+    .jssorb052 .i .b {fill:#000;fill-opacity:0.4;}
+    .jssorb052 .i:hover .b {fill-opacity:.7;}
+    .jssorb052 .iav .b {fill-opacity: 1;}
+    .jssorb052 .i.idn {opacity:.3;}
+
+    /*jssor slider arrow skin 053 css*/
+    .jssora053 {display:block;position:absolute;cursor:pointer;}
+    .jssora053 .a {fill:none;stroke:#FF4500;stroke-width:640;stroke-miterlimit:10;}
+    .jssora053:hover {opacity:.8;}
+    .jssora053.jssora053dn {opacity:.5;}
+    .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
 }
 @media screen and (max-width: 1279px), print{
 	/*mobile*/
