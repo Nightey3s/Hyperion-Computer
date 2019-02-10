@@ -63,12 +63,12 @@
   <main>
     <section>
       <h1>Check out our products!</h1>
-      <article id="jssor_pcproducts" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+      <article id="jssor_pcproducts">
   <!-- Loading Screen -->
-  <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-      <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="Images/spin.svg" />
+  <div data-u="loading" class="jssorl-009-spin">
+      <img src="Images/spin.svg" />
   </div>
-  <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+  <div data-u="slides" id="slideshow1">
       <div data-fillmode="1" style="background-color:#ffffff;">
           <img data-u="image" src="Images/Apollo/Apollo_1.png"/>
           <div data-u="thumb">
@@ -117,16 +117,16 @@
       </div>
   </div>
   <!-- Thumbnail Navigator -->
-  <div data-u="thumbnavigator" class="jssort121" style="position:absolute;left:0px;top:0px;width:268px;height:380px;overflow:hidden;cursor:default;" data-autocenter="2" data-scale-left="0.75">
+  <div data-u="thumbnavigator" class="jssort121" data-autocenter="2" data-scale-left="0.75">
       <div data-u="slides">
-          <div data-u="prototype" class="p" style="width:268px;height:68px;">
+          <div data-u="prototype" class="p">
               <div data-u="thumbnailtemplate" class="t"></div>
           </div>
       </div>
   </div>
   <!-- Bullet Navigator -->
-  <div data-u="navigator" class="jssorb111" style="position:absolute;bottom:12px;right:12px;" data-scale="0.5">
-      <div data-u="prototype" class="i" style="width:24px;height:24px;font-size:12px;line-height:24px;">
+  <div data-u="navigator" class="jssorb111" data-scale="0.5">
+      <div data-u="prototype" class="i">
           <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;">
               <circle class="b" cx="8000" cy="8000" r="3000"></circle>
           </svg>
@@ -138,61 +138,61 @@
 </section><br><br>
     <section class="custompcs">
         <h1>Custom Built Computers</h1>
-        <article id="jssor_custom_pc" style="position:relative;margin:0 auto;top:0px;left:0px;width:1136px;height:640px;overflow:hidden;visibility:hidden;">
+        <article id="jssor_custom_pc">
             <!-- Loading Screen -->
-            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="Images/spin.svg" />
+            <div data-u="loading" class="jssorl-009-spin">
+                <img src="Images/spin.svg" />
             </div>
-            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1136px;height:640px;overflow:hidden;">
+            <div data-u="slides" id="slideshow2">
                 <div data-fillmode="4">
                     <img data-u="image" src="Images/SliderImg/Joker.jpg" />
-                    <div data-t="0" style="position:absolute;top:320px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Joker<br />
+                    <div data-t="0" id="Joker">Joker<br />
                     </div>
                 </div>
                 <div>
                     <img data-u="image" src="Images/SliderImg/AllBlack.jpg" />
                     <div data-ts="flat" data-p="1360" style="position:absolute;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-                        <div data-t="1" style="position:absolute;top:-50px;left:125px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">All Black</div>
+                        <div data-t="1" id="allblack">All Black</div>
                     </div>
                 </div>
                 <div>
                     <img data-u="image" src="Images/SliderImg/DawnOfWar.jpg" />
                     <div data-ts="flat" data-p="1360" style="position:absolute;top:0px;left:0px;width:980px;height:380px;">
-                        <div data-t="2" style="position:absolute;top:30px;left:-505px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Dawn of War</div>
+                        <div data-t="2" id="DOW">Dawn of War</div>
                     </div>
                 </div>
                 <div>
                     <img data-u="image" src="Images/SliderImg/DeskPC.jpg" />
-                    <div data-t="3" style="position:absolute;top:30px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Megawatt</div>
+                    <div data-t="3" id="MW">Megawatt</div>
                 </div>
                 <div>
                     <img data-u="image" src="Images/SliderImg/Ducati.jpg" />
-                    <div data-t="4" style="position:absolute;top:30px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Ducati</div>
+                    <div data-t="4" id="Bike">Ducati</div>
                 </div>
                 <div>
                     <img data-u="image" src="Images/SliderImg/FalloutPC.jpg" />
-                    <div data-t="5" style="position:absolute;top:30px;left:600px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Pipboy</div>
+                    <div data-t="5" id="Pip">Pipboy</div>
                 </div>
                 <div>
                     <img data-u="image" src="Images/SliderImg/Starwars.jpg" />
-                    <div data-t="6" style="position:absolute;top:30px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Stormtrooper</div>
+                    <div data-t="6" id="SW">Stormtrooper</div>
                 </div>
             </div>
             <!-- Bullet Navigator -->
-            <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+            <div data-u="navigator" class="jssorb052" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i">
                     <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                         <circle class="b" cx="8000" cy="8000" r="5800"></circle>
                     </svg>
                 </div>
             </div>
             <!-- Arrow Navigator -->
-            <div data-u="arrowleft" class="jssora053" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <div data-u="arrowleft" class="jssora053" style="left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
                 <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                     <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
                 </svg>
             </div>
-            <div data-u="arrowright" class="jssora053" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <div data-u="arrowright" class="jssora053" style="right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
                 <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                     <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
                 </svg>
