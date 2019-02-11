@@ -47,7 +47,7 @@
 
 	article.top{
 		background-color: #000;
-		min-height: 150px;
+		min-height: 130px;
 		max-height: 200px;
 	}
 	article h1{
@@ -84,6 +84,12 @@
 	}
 	.About-us h1{
 		margin: 4% 0%;
+	}
+	#jssor_pcproducts{
+		display: none;
+	}
+	#jssor_custom_pc{
+		display: none;
 	}
 
 	hr{
@@ -154,7 +160,9 @@
 		width:0;
 		border:15px solid transparent;
 		border-bottom-color:#FFF;
-
+	}
+	.homemain{
+		display: none;
 	}
 	.backtotopbutton:hover {
 		background-color:#FF4500;
@@ -178,6 +186,14 @@
 		text-decoration: none;
 		font-size: 2.5em;
 		margin: 60px 2.2%;
+	}
+	.product-page h1{
+		text-decoration: underline;
+		font-size: 5em;
+		margin: 1% 15%;
+	}
+	.product-page hr{
+		margin: 0 15%;
 	}
 
 	.active {
@@ -303,6 +319,9 @@ p.description{
 		height: 60px;
     -webkit-font-smoothing: antialiased;
 }
+.select:focus{
+	outline: none;
+}
 }
 	.grid-container {
 		display: grid;
@@ -414,6 +433,9 @@ p.description{
 		textarea{
 			width: 25em;
 		}
+		img.Logo{
+			width: 250px;
+		}
 		.About-us p{
 			font-size: 2em;
 			margin: 1%;
@@ -424,6 +446,18 @@ p.description{
 		p.moredesc{
 			font-size: 0.2em;
 		}
+		.individual-product{
+			margin:8% 20% 0% 20%;
+		}
+		.individual-product p{
+			font-size: 2em;
+			margin: 4% 0% 4% 0%;
+		}
+		p.description{
+			font-size: 0.8em;
+			font-style: normal;
+			margin: 2% 0% 0% 0%;
+		}
 	}/*end of 480px breakpoint*/
 	@media screen and (min-width: 720px), print{
 		img.hamburgpic{
@@ -431,6 +465,9 @@ p.description{
 		}
 		img.logo{
 			width: 300px;
+		}
+		.homemain{
+			display: block;
 		}
 		textarea{
 			width: 40em;
@@ -504,6 +541,7 @@ p.description{
 			to { transform: rotate(360deg); }
 		}
 		#jssor_pcproducts{
+			display: block;
 			position:relative;
 			margin:0 auto;
 			top:0px;
@@ -514,6 +552,7 @@ p.description{
 			visibility:hidden;
 		}
 		#jssor_custom_pc{
+			display: block;
 			position:relative;
 			margin:0 auto;
 			top:0px;
@@ -793,10 +832,22 @@ p.description{
 			text-align:center;
 			background-color:rgba(255,188,5,0.8);
 		}
+		.individual-product{
+			margin:8% 25% 0% 25%;
+		}
+		.individual-product p{
+			font-size: 2em;
+			margin: 4% 0% 4% 0%;
+		}
+		p.description{
+			font-size: 0.8em;
+			font-style: normal;
+			margin: 2% 0% 0% 0%;
+		}
 		}/*end of 720px breakpoint*/
 		@media screen and (max-width: 1279px), print{
 			/*mobile*/
-			.topnav a:not(:first-child), .dropdown .dropbtn {
+			.topnav a, .dropdown .dropbtn {
 				display: none;
 			}
 			.topnav a.icon {
@@ -855,11 +906,14 @@ p.description{
 				left: 0;
 				right: 0;
 			}
+			.product-page{
+				margin: 5% 0%;
+			}
 			.productgrid{
 				display: grid;
 				grid-template-columns: 33% 33% 33%;
 				grid-template-rows: 50% 50%;
-				margin: 8% 17%;
+				margin: 0 10% 0 12%;
 			}
 			button.Hamburg{
 				display: none;
@@ -963,6 +1017,12 @@ p.description{
 			main h2{
 				font-size: 2.3em;
 			}
+			.individual-product{
+				display: grid;
+				grid-template-rows: 15% 15% 40% 15% 15%;
+				text-align: center;
+				margin: 15% 10%;
+			}
 			article h1{
 				font-size: 4.5em;
 			}
@@ -981,6 +1041,31 @@ p.description{
 			input{
 				font-size:0.9em;
 			}
+			.product-header{
+				background-color: #000;
+				display: table;
+				padding: 17px;
+			}
+		.individual-product span{
+			font-size: 3em;
+			vertical-align: middle;
+			display: table-cell;
+			color: #FFF;
+			margin-bottom: 50%;
+		}
+		.individual-product h5{
+			font-size: 2.5em;
+			margin: 5% 0% 50% 0%;
+		}
+		.individual-product p{
+			font-size: 1.7em;
+			margin: 5% 0% 5% 0%;
+		}
+		p.description{
+			font-size: 0.6em;
+			font-style: normal;
+			margin: 2% 0% 0% 0%;
+		}
 
 			textarea{
 				font-size: 0.7em;
