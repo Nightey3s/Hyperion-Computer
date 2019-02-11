@@ -189,7 +189,7 @@
 	}
 	.product-page h1{
 		text-decoration: underline;
-		font-size: 5em;
+		font-size: 3em;
 		margin: 1% 15%;
 	}
 	.product-page hr{
@@ -443,6 +443,9 @@ p.description{
 		aside h4{
 			font-size: 0.4em;
 		}
+		.product-page h1{
+			font-size: 4em;
+		}
 		p.moredesc{
 			font-size: 0.2em;
 		}
@@ -457,6 +460,13 @@ p.description{
 			font-size: 0.8em;
 			font-style: normal;
 			margin: 2% 0% 0% 0%;
+		}
+		.product-page h2{
+			font-size: 2em;
+		}
+		#burger{
+			font-size: 3.1em;
+			margin: 50px 50px 50px 0;
 		}
 	}/*end of 480px breakpoint*/
 	@media screen and (min-width: 720px), print{
@@ -513,6 +523,9 @@ p.description{
 		}
 		p.moredesc{
 			font-size: 0.4em;
+		}
+		.product-page h2{
+			font-size: 2.5em;
 		}
 		/*jssor slider loading skin spin css*/
 		.jssor1-009-spin{
@@ -917,6 +930,12 @@ p.description{
 			}
 			button.Hamburg{
 				display: none;
+			}
+			.product-page h1{
+				font-size: 5em;
+			}
+			.product-page h2{
+				font-size: 3em;
 			}
 			.gridlayout{
 				display: grid;
