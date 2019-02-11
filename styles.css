@@ -101,10 +101,10 @@
 		opacity: 0.65;
 	}
 	.BuyNow{
-		color: #E00;
+		color: #C43612;
 		background-color: #000;
 		padding: 5px 10px;
-		border: 2px solid #F00;
+		border: 2px solid #C43612;
 		border-radius: 25px;
 		outline: none;
 	}
@@ -246,11 +246,7 @@
 		color: #000;
 	}
 
-	.dropdown:hover .dropdown-content {
-		display: grid;
-		grid-template-columns: 33% 33% 33%;
-		grid-template-rows: 50% 50%;
-	}
+
 
 	.grid-container {
 		display: grid;
@@ -843,6 +839,12 @@
 			aside h4{
 				font-size: 1.1em;
 			}
+			.dropdown:hover .dropdown-content {
+					margin-top: 3%;
+					display: grid;
+					grid-template-columns: 33% 33% 33%;
+					grid-template-rows: 50% 50%;
+				}
 
 			#Getstarted{
 				border-radius: 100px;
@@ -870,7 +872,8 @@
 				height: 150px;
 				margin: 1px;
 			}
-			button.dropbtn{
+			a.dropbtn{
+				margin: 0;
 				padding: 40px 30px 40px 30px;
 			}
 			nav a:link a:visited{
