@@ -19,6 +19,19 @@
 		text-decoration: none;
 		color: #FFF;
 	}
+	.Overview{
+		margin: 5% 0%;
+	}
+	.Overview:focus{
+		outline: none;
+	}
+	.Technology{
+
+	}
+	.Technology:focus{
+		outline:none;
+	}
+
 	#Focus{
 		margin: 1% 11%;
 		text-align: left;
@@ -86,6 +99,14 @@
 	main h2{
 		margin: 1% 20% 1% 20%;
 		opacity: 0.65;
+	}
+	.BuyNow{
+		color: #E00;
+		background-color: #000;
+		padding: 5px 10px;
+		border: 2px solid #F00;
+		border-radius: 25px;
+		outline: none;
 	}
 	article h3{
 		margin: 3% 0% 0% 20%;
@@ -228,7 +249,7 @@
 	.dropdown:hover .dropdown-content {
 		display: grid;
 		grid-template-columns: 33% 33% 33%;
-		grid-template-rows: 50% 50% 50%;
+		grid-template-rows: 50% 50%;
 	}
 
 	.grid-container {
@@ -786,6 +807,28 @@
 			button.Hamburg{
 				display: none;
 			}
+			.gridlayout{
+				display: grid;
+				grid-template-columns: 45% 45%;
+				grid-template-rows: 50% 50%;
+				margin-bottom: 15%;
+			}
+			.desc{
+				padding-top: 35%;
+				font-size: 3.5em;
+			}
+			.secondarygrid{
+				padding-left: 15%;
+			}
+			.secondarygrid p{
+				margin: 3% 10%;
+				text-align: center;
+				font-size: 1.6em;
+			}
+			.gridlayout img{
+				width: 100%;
+				padding-left: 15%;
+			}
 			.dropbtn {
 				background-color: inherit;
 				color: #FFF;
@@ -844,6 +887,9 @@
 			}
 			main h1{
 				font-size: 4em;
+			}
+			.BuyNow{
+				font-size: 0.8em;
 			}
 
 			main h2{
