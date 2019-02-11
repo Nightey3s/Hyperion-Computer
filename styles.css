@@ -90,6 +90,7 @@
 		border-top: 2px solid #F00;
 		margin: 0% 20%;
 	}
+
 	.jssorb052{
 		display: none;
 	}
@@ -245,9 +246,64 @@
 		background-color: #FFF;
 		color: #000;
 	}
-
-
-
+	.individual-product{
+		display: grid;
+		grid-template-rows: 15% 15% 40% 15% 15%;
+		text-align: center;
+		margin: 15% 10%;
+	}
+	.individual-product img{
+		margin: 10% 0% -10% 0%;
+		width: 100%;
+	}
+	#Zeusprodpage{
+		width: 60%;
+	}
+	.product-header{
+		background-color: #000;
+		display: table;
+		padding: 17px;
+	}
+.individual-product span{
+	font-size: 3em;
+	vertical-align: middle;
+	display: table-cell;
+	color: #FFF;
+	margin-bottom: 50%;
+}
+.individual-product h5{
+	font-size: 2.5em;
+	margin: 5% 0% 50% 0%;
+}
+.individual-product p{
+	font-size: 1.7em;
+	margin: 5% 0% 5% 0%;
+}
+p.description{
+	font-size: 0.6em;
+	font-style: normal;
+	margin: 2% 0% 0% 0%;
+}
+.select{
+		width: 50%;
+		position: relative;
+		left: 25%;
+	  display: inline-block;
+    margin: 10px 10px 10px 0;
+    padding: 11px 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2;
+    cursor: pointer;
+		background: transparent;
+		color: #1D87C6;
+		border: 2px solid #1D87C6;
+    border-radius: 60px;
+		height: 60px;
+    -webkit-font-smoothing: antialiased;
+}
+}
 	.grid-container {
 		display: grid;
 		grid-template-columns: 25% 25% 25% 25%;
@@ -799,7 +855,12 @@
 				left: 0;
 				right: 0;
 			}
-
+			.productgrid{
+				display: grid;
+				grid-template-columns: 33% 33% 33%;
+				grid-template-rows: 50% 50%;
+				margin: 8% 17%;
+			}
 			button.Hamburg{
 				display: none;
 			}
@@ -846,6 +907,10 @@
 					grid-template-rows: 50% 50%;
 				}
 
+			#Zeusnavbar{
+				width: 60%;
+				padding-left: 60px;
+			}
 			#Getstarted{
 				border-radius: 100px;
 				background-color: #666;
