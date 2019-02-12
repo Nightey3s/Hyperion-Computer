@@ -3,6 +3,9 @@
   if(y.addEventListener){
     y.addEventListener("click", mobileclick);
   }
+  // $("#myTopnav").focusout(function(){
+  //   x.className = "topnav";
+  // });
 
   function mobileclick(){
     if (x.className === "topnav") {

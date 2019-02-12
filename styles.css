@@ -133,7 +133,8 @@
 	}
 	.backtotopbutton {
 		position: fixed;
-		bottom: -2.6%;
+		bottom: -2.7%;
+		padding-bottom: 85px;
 		right: 0.5%;
 		cursor: pointer;
 		width:100px;
@@ -462,6 +463,7 @@ p.description{
 			color: #FFF;
 			margin: 10% 20% 0 20%;
 			font-size: 2em;
+			text-align: center;
 		}
 		.gridlayout{
 			font-size: 1.6em;
@@ -523,6 +525,14 @@ p.description{
 			clear: both;
 			margin: 1% 3% 3% 20%;
 		}
+		.gridlayout4-2{
+			display: grid;
+			grid-template-columns: 70%;
+			grid-template-rows: 100%;
+			max-height: 100%;
+			clear: both;
+			margin: 1% 3% 3% 20%;
+		}
 		.cpuselection{
 			display: grid;
 			grid-template-rows: 25% 15% 15% 15% 6% 6% 6% 6% 6%;
@@ -552,8 +562,8 @@ p.description{
 		letter-spacing: 1;
 		cursor: pointer;
 		background: transparent;
-		color: #1D87C6;
-		border: 2px solid #1D87C6;
+		color: #FF4500;
+		border: 2px solid #FF4500;
 		border-radius: 60px;
 		height: 60px;
 		-webkit-font-smoothing: antialiased;
@@ -1102,7 +1112,7 @@ p.description{
 				font-size: 1.4em;
 			}
 			.desc{
-				padding-top: 35%;
+				padding-top: 20%;
 				font-size: 3.5em;
 			}
 			.desc2{
@@ -1138,6 +1148,13 @@ p.description{
 				grid-template-rows: 100%;
 				height: 100%;
 				margin: 1% 10% 3% 10%;
+			}
+			.gridlayout4-2{
+				display: grid;
+				grid-template-columns: 30% 30% 30%;
+				grid-template-rows: 100%;
+				height: 100%;
+				margin: 1% 10% 3% 17%;
 			}
 			.cpuselection{
 				margin: 0 5%;
