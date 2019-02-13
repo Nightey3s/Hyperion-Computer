@@ -1,0 +1,713 @@
+<html>
+<head>
+  <title>Hyperion Computer</title>
+  <!-- Individual product page
+	Filename: Zeus_Ryzen.html
+
+	Author: Tham Kai Heng 1828711
+	-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <!-- Local fallback, in case jQuery CDN is down-->
+  <script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+  <link rel="shortcut icon" href="Images/Logo/favicon.ico">
+  <link rel="apple-touch-icon" href="Images/Logo/apple-touch-icon.png">
+  <link rel="icon" sizes="192x192" href="Images/Logo/android.png">
+</head>
+<body>
+  <header>
+      <article class="top">
+        <a href="index.html">
+          <img class="Logo" src="Images/Logo/Logo.png" alt="Hyperion Computer" title="Home">
+        </a>
+        <nav class="topnav" id="myTopnav">
+          <a href="index.html" class="hvr-underline-from-center"><span class="fa fa-fw fa-home"></span> Home</a>
+          <div class="dropdown">
+            <a href="products.html" class="dropbtn hvr-underline-from-center"><span class="fas fa-desktop"></span> Products</a>
+            <div class="dropdown-content">
+              <a class="hvr-underline-from-center" href="Janus.html"><img class="navimg" src="Images/Janus/Janus_5.png" alt="Janus" title="Janus"><span class="navtext">Janus</span></a>
+              <a class="hvr-underline-from-center" href="Apollo.html"><img class="navimg" src="Images/Apollo/Apollo_1.png" alt="Apollo" title="Apollo"><span class="navtext">Apollo</span></a>
+              <a class="hvr-underline-from-center" href="Ares.html"><img class="navimg" src="Images/Ares/Ares_1.png" alt="Ares" title="Ares"><span class="navtext">Ares</span></a>
+              <a class="hvr-underline-from-center" href="Hades.html"><img class="navimg" src="Images/Hades/Hades_1.png" alt="Hades" title="Hades"><span class="navtext">Hades</span></a>
+              <a class="hvr-underline-from-center" href="Poseidon.html"><img class="navimg" src="Images/Poseidon/Poseidon.png" alt="Poseidon" title="Poseidon"><span class="navtext">Poseidon</span></a>
+              <a class="hvr-underline-from-center" href="Zeus.html"><img class="navimg" id="Zeusnavbar" src="Images/Zeus/Zeus_1.jpg" alt="Zeus" title="Zeus"><span class="navtext">Zeus</span></a>
+            </div>
+          </div>
+          <a href="Custom_Quote.html" class="hvr-underline-from-center"><span class="fas fa-phone"></span> Contact</a>
+          <a href="aboutus.html" class="hvr-underline-from-center"><span class="fas fa-info-circle"></span> About</a>
+          <a href="FAQ.html" class="hvr-underline-from-center"><span class="fas fa-question-circle"></span> F.A.Q</a>
+          <a href="javascript:void(0);" id="burger" class="icon" onclick="">&#9776;</a>
+        </nav>
+      </article>
+  </header>
+  <main class="Configurator">
+    <h1>Zeus</h1>
+    <img src="Images/Zeus/Zeus_1.jpg" alt="Zeus" title="Zeus">
+    <form action="thankyou.html" class="configuration">
+      <div class="contain">
+        <article class="sections">
+          <h2 class="sectionheader">Core Components</h2>
+          <!--First part of Processor -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/CPU/Intel/CoreI5.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+            <span class="head">Processor</span>
+            <p class="headdesc">Intel Core-i5 8400 (4-Core)</p>
+            <span class="buttonshow" id="changeprocessor">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changeprocessor1">
+              <section class="indiv2">
+              <input type="radio" name="Processor" value=330 checked>
+              <img class="thumbn" src="Images/CPU/Intel/CoreI5.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Intel Core-i5 8400 (4-Core)</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="Processor" value=435>
+                <img class="thumbn" src="Images/CPU/Intel/CoreI5.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Intel Core-i5 9600k (Unlocked) (6-Core)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Processor" value=735>
+                <img class="thumbn" src="Images/CPU/Intel/CoreI7.jpg" alt="Ryzen_3" title="Ryzen 5 2600">
+                <p class="headdesc">Intel Core-i7 9700k (Unlocked) (8-Core)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Processor" value=950>
+                <img class="thumbn" src="Images/CPU/Intel/CoreI9.jpg" alt="Ryzen_3" title="Ryzen 7 2700">
+                <p class="headdesc">Intel Core-i9 9900k (Unlocked) (6-Core)</p>
+              </section>
+            </aside>
+          </section>
+          <!--First part of Motherboard -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/Motherboard/Intel/Z370/AsusZ390-Prime.jpg" alt="Asus B450" title="Asus B450">
+            <span class="head">Motherboard</span>
+            <p class="headdesc">Asus Z390 Prime</p>
+            <span class="buttonshow" id="changeMotherboard">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changeMotherboard1">
+              <section class="indiv2">
+              <input type="radio" name="Motherboard" value=300 checked>
+              <img class="thumbn" src="Images/Motherboard/Intel/Z370/AsusZ390-Prime.jpg" alt="Asus CrosshairX470" title="Asus CrosshairX470">
+              <p class="headdesc">Asus Z390 Prime</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="Motherboard" value=560>
+                <img class="thumbn" src="Images/Motherboard/Intel/Z370/ROGMaximusXIHeroZ390.jpg" alt="AsusPrimeB450-M" title="AsusPrimeB450-M">
+                <p class="headdesc">Asus ROG Maximus XI Hero</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Motherboard" value=450>
+                <img class="thumbn" src="Images/Motherboard/Intel/Z370/Z390_ITX.png" alt="AsusPrimeX470" title="AsusPrimeX470">
+                <p class="headdesc">Asus Z390-I (ITX)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Motherboard" value=525>
+                <img class="thumbn" src="Images/Motherboard/Intel/Z370/Z390GodLike.jpg" alt="AsusTUFX470" title="AsusTUFX470">
+                <p class="headdesc">MSI Z390 Godlike</p>
+              </section>
+                <section class="indiv2">
+                  <input type="radio" name="Motherboard" value=430>
+                  <img class="thumbn" src="Images/Motherboard/Intel/Z370/Z390MATX.jpg" alt="MSIGamingM7" title="MSIGamingM7">
+                  <p class="headdesc">Asus Z390M-Plus</p>
+              </section>
+            </aside>
+          </section>
+          <!--First part of RAM -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/RAM/CorsairVengeanceRam.jpg" alt="CorsairVengeanceRam" title="16GB Corsair Vengeance Ram">
+            <span class="head">RAM</span>
+            <p class="headdesc">16GB DDR4 3000MHz Corsair Vengeance RGB Pro (RGB Light Bar)</p>
+            <span class="buttonshow" id="changeRAM">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changeRAM1">
+              <section class="indiv2">
+              <input type="radio" name="RAM" value=223 checked>
+              <img class="thumbn" src="Images/RAM/CorsairVengeanceRam.jpg" alt="Asus CrosshairX470" title="16GB Corsair Vengeance Ram">
+              <p class="headdesc">16GB DDR4 3000MHz Corsair Vengeance RGB Pro (RGB Light Bar)</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="RAM" value=410>
+                <img class="thumbn" src="Images/RAM/CorsairVengeanceRam.jpg" alt="AsusPrimeB450-M" title="32GB Corsair Vengeance Ram">
+                <p class="headdesc">32GB DDR4 3000MHz Corsair Vengeance RGB Pro (RGB Light Bar)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="RAM" value=805>
+                <img class="thumbn" src="Images/RAM/CorsairVengeanceRam.jpg" alt="AsusPrimeX470" title="64GB CorsairVengeance Ram">
+                <p class="headdesc">64GB DDR4 3000MHz Corsair Vengeance RGB Pro (RGB Light Bar)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="RAM" value=450>
+                <img class="thumbn" src="Images/RAM/CorsairDominatorPlatinum.jpg" alt="AsusTUFX470" title="32GB Dominator Platinum">
+                <p class="headdesc">32GB DDR4 3200MHz Corsair Dominator Platinum DHX (Extreme-Performance) </p>
+              </section>
+                <section class="indiv2">
+                  <input type="radio" name="RAM" value=840>
+                  <img class="thumbn" src="Images/RAM/CorsairDominatorPlatinum.jpg" alt="MSIGamingM7" title="64GB Dominator Platinum">
+                  <p class="headdesc">64GB DDR4 3200MHz Corsair Dominator Platinum DHX (Extreme-Performance) </p>
+              </section>
+            </aside>
+          </section>
+          <section class="indiv">
+            <img class="thumbn" src="Images/Power_Supply/Superflower600wPSU.jpg" alt="Superflower600wPSU" title="600W PSU">
+            <span class="head">Power Supply</span>
+            <p class="headdesc">Superflower 600W PSU</p>
+            <span class="buttonshow" id="changePSU">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changePSU1">
+              <section class="indiv2">
+              <input type="radio" name="PSU" value=179 checked>
+              <img class="thumbn" src="Images/Power_Supply/Superflower600wPSU.jpg" alt="Asus CrosshairX470" title="16GB Corsair Vengeance Ram">
+              <p class="headdesc">600W Superflower PSU (Supports up to a RTX 2070)</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="PSU" value=219>
+                <img class="thumbn" src="Images/Power_Supply/Corsair750WPSU.jpg" alt="AsusPrimeB450-M" title="32GB Corsair Vengeance Ram">
+                <p class="headdesc">750W Corsair PSU (Fully Modular)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="PSU" value=259>
+                <img class="thumbn" src="Images/Power_Supply/Corsair850WPSU.jpg" alt="AsusPrimeX470" title="64GB CorsairVengeance Ram">
+                <p class="headdesc">850W Corsair PSU (Fully Modular)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="PSU" value=475>
+                <img class="thumbn" src="Images/Power_Supply/Corsair1200WPSU.jpg" alt="AsusTUFX470" title="32GB Dominator Platinum">
+                <p class="headdesc">1200W Corsair PSU (Digitally Controlled Power)</p>
+              </section>
+                <section class="indiv2">
+                  <input type="radio" name="PSU" value=635>
+                  <img class="thumbn" src="Images/Power_Supply/Corsair1600WPSU.jpg" alt="MSIGamingM7" title="64GB Dominator Platinum">
+                  <p class="headdesc">1600W Corsair PSU (Digitally Controlled Power)</p>
+              </section>
+            </aside>
+          </section>
+        </article>
+        <!--Start of Storage -->
+        <article class="sections">
+          <h2 class="sectionheader">Storage</h2>
+          <!--First part of Storage1 -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+            <span class="head">Storage set 1</span>
+            <p class="headdesc">Samsung 860 Evo 250GB</p>
+            <span class="buttonshow" id="changedrive1">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changedrive1-2">
+              <section class="indiv2">
+              <input type="radio" name="Storage1" value=89 checked>
+              <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Samsung 860 Evo 250GB</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=149>
+                <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 860 Evo 500GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=330>
+                <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 860 Evo 1TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=149>
+                <img class="thumbn" src="Images/SSD/Samsung970EVO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Evo 250GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=249>
+                <img class="thumbn" src="Images/SSD/Samsung970EVO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Evo 500GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=179>
+                <img class="thumbn" src="Images/SSD/Samsung970PRO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Pro 256GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=319>
+                <img class="thumbn" src="Images/SSD/Samsung970PRO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Pro 512GB (Ultra Performance)</p>
+              </section>
+            </aside>
+          </section>
+          <!--First part of Storage2 -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+            <span class="head">Storage set 2</span>
+            <p class="headdesc">Samsung 860 Evo 250GB</p>
+            <span class="buttonshow" id="changedrive2">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changedrive2-2">
+              <section class="indiv2">
+              <input type="radio" name="Storage2" value=89 checked>
+              <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Samsung 860 Evo 250GB</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage2" value=149>
+                <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 860 Evo 500GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage2" value=330>
+                <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 860 Evo 1TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage2" value=149>
+                <img class="thumbn" src="Images/SSD/Samsung970EVO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Evo 250GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage2" value=249>
+                <img class="thumbn" src="Images/SSD/Samsung970EVO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Evo 500GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage2" value=179>
+                <img class="thumbn" src="Images/SSD/Samsung970PRO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Pro 256GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage2" value=319>
+                <img class="thumbn" src="Images/SSD/Samsung970PRO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Pro 512GB (Ultra Performance)</p>
+              </section>
+            </aside>
+          </section>
+          <!--First part of Storage3 -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+            <span class="head">Storage set 3</span>
+            <p class="headdesc">Samsung 860 Evo 250GB</p>
+            <span class="buttonshow" id="changedrive3">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changedrive3-2">
+              <section class="indiv2">
+              <input type="radio" name="Storage3" value=89 checked>
+              <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Samsung 860 Evo 250GB</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=149>
+                <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 860 Evo 500GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=330>
+                <img class="thumbn" src="Images/SSD/Samsung860EVO_Sata.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 860 Evo 1TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=149>
+                <img class="thumbn" src="Images/SSD/Samsung970EVO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Evo 250GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=249>
+                <img class="thumbn" src="Images/SSD/Samsung970EVO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Evo 500GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=179>
+                <img class="thumbn" src="Images/SSD/Samsung970PRO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Pro 256GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=319>
+                <img class="thumbn" src="Images/SSD/Samsung970PRO.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">Samsung 970 Pro 512GB (Ultra Performance)</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=108>
+                <img class="thumbn" src="Images/HDD/WDBlack.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Black 1TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=178>
+                <img class="thumbn" src="Images/HDD/WDBlack.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Black 2TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=269>
+                <img class="thumbn" src="Images/HDD/WDBlack.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Black 4TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=300>
+                <img class="thumbn" src="Images/HDD/WDGold.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Gold 4TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=370>
+                <img class="thumbn" src="Images/HDD/WDGold.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Gold 6TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=460>
+                <img class="thumbn" src="Images/HDD/WDGold.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Gold 8TB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage3" value=550>
+                <img class="thumbn" src="Images/HDD/WDGold.jpg" alt="Ryzen_3" title="Ryzen 5 1500x">
+                <p class="headdesc">WD Gold 10TB</p>
+              </section>
+            </aside>
+          </section>
+        </article>
+        <article class="sections">
+          <h2 class="sectionheader">Multimedia</h2>
+          <!--First part of GPU -->
+          <section class="indiv">
+            <img class="thumbn" src="Images/GPU/RTX2060.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+            <span class="head">Graphics Card</span>
+            <p class="headdesc">NVIDIA RTX2060 6GB</p>
+            <span class="buttonshow" id="changegpu">Change</span>
+            <!--config part of components -->
+            <aside class="showclick" id="changegpu1">
+              <section class="indiv2">
+              <input type="radio" name="Storage1" value=800 checked>
+              <img class="thumbn" src="Images/GPU/RTX2060.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">NVIDIA RTX2060 6GB</p>
+            </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=1100>
+                <img class="thumbn" src="Images/GPU/RTX2070.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">NVIDIA RTX2070 8GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=1518>
+                <img class="thumbn" src="Images/GPU/RTX2080.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">NVIDIA RTX2080 8GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=2359>
+                <img class="thumbn" src="Images/GPU/RTX2080TI.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">NVIDIA RTX2080TI 11GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=3500>
+                <img class="thumbn" src="Images/GPU/TitanRTX.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">NVIDIA TitanRTX 24GB</p>
+              </section>
+              <section class="indiv2">
+                <input type="radio" name="Storage1" value=4200>
+                <img class="thumbn" src="Images/GPU/TitanV.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">NVIDIA TitanV 12GB (SuperComputing GPU)</p>
+              </section>
+            </aside>
+          </section>
+          <section class="indiv">
+            <!--First part of SoundCard-->
+            <img class="thumbn" src="Images/Sound_Card/Motherboard_Audio.jpg" alt="Motherboard Audio" title="Motherboard Audio">
+            <span class="head">Sound Card</span>
+            <p class="headdesc">Onboard Audio</p>
+            <span class="buttonshow" id="changeSound">Change</span>
+            <!--Config part -->
+            <aside class="showclick" id="changeSound1">
+              <section class="indiv2">
+              <input type="radio" name="SoundCard" value=0 checked>
+              <img class="thumbn" src="Images/Sound_Card/Motherboard_Audio.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Onboard Audio</p>
+              </section>
+              <section class="indiv2">
+              <input type="radio" name="SoundCard" value=150>
+              <img class="thumbn" src="Images/Sound_Card/CreativeSoundBlasterZ.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Creative Sound Blaster Z</p>
+              </section>
+              <section class="indiv2">
+              <input type="radio" name="SoundCard" value=230>
+              <img class="thumbn" src="Images/Sound_Card/CreativeSoundBlasterX_AE-5.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Creative SoundBlasterX AE-5</p>
+            </section>
+            </aside>
+          </section>
+          </article>
+          <article class="sections">
+            <h2 class="sectionheader">Cooling</h2>
+            <section class="indiv">
+              <!--First part of Cooling-->
+              <img class="thumbn" src="Images/CPU_Cooler/Water_Cooling/LiquidCooling.jpg" alt="LiquidCooling" title="Liquid Cooling">
+              <span class="head">CPU Cooling</span>
+              <p class="headdesc">Soft tubing</p>
+              <span class="buttonshow" id="changeCooling">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeCooling1">
+                <section class="indiv2">
+                <input type="radio" name="Cooling" value=750 checked>
+                <img class="thumbn" src="Images/CPU_Cooler/Water_Cooling/LiquidCooling.jpg" alt="Soft_Tubing" title="Soft_Tubing">
+                <p class="headdesc">Soft tubing</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Cooling" value=0>
+                <img class="thumbn" src="Images/CPU_Cooler/AMDStockCooler.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">AMD Stock Cooler</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Cooling" value=309>
+                <img class="thumbn" src="Images/CPU_Cooler/Water_Cooling/KrakenX72.png" alt="Ryzen_3" title="Ryzen 3 1200">
+                <p class="headdesc">Closed Loop AIO Liquid Cooler</p>
+              </section>
+              <section class="indiv2">
+              <input type="radio" name="Cooling" value=900>
+              <img class="thumbn" src="Images/CPU_Cooler/Water_Cooling/AcrylicTubing.jpg" alt="Ryzen_3" title="Ryzen 3 1200">
+              <p class="headdesc">Custom Acrylic Tubing</p>
+            </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of CableMgmt-->
+              <img class="thumbn" src="Images/Cable_Management/StandardCable.jpg" alt="StandardCable" title="Standard Cable">
+              <span class="head">Cable Management</span>
+              <p class="headdesc">Standard PSU Cables</p>
+              <span class="buttonshow" id="changeCable">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeCable1">
+                <section class="indiv2">
+                <input type="radio" name="Cable" value=0 checked>
+                <img class="thumbn" src="Images/Cable_Management/StandardCable.jpg" alt="StandardCable" title="Standard Cable">
+                <p class="headdesc">Standard PSU Cables</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Cable" value=70>
+                <img class="thumbn" src="Images/Cable_Management/BlackCable.jpg" alt="StandardCable" title="Black Cable">
+                <p class="headdesc">Custom Black PSU Cables with cable combs</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Cable" value=70>
+                <img class="thumbn" src="Images/Cable_Management/GreenCable.jpg" alt="StandardCable" title="Green Cable">
+                <p class="headdesc">Custom Green PSU Cables with cable combs</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Cable" value=70>
+                <img class="thumbn" src="Images/Cable_Management/RedCable.jpg" alt="StandardCable" title="Red Cable">
+                <p class="headdesc">Custom Red PSU Cables with cable combs</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Cable" value=70>
+                <img class="thumbn" src="Images/Cable_Management/WhiteCable.jpg" alt="StandardCable" title="White Cable">
+                <p class="headdesc">Custom White PSU Cables with cable combs</p>
+                </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of ChassisFan-->
+              <img class="thumbn" src="Images/Case_Fans/StandardCaseFans.jpg" alt="Fan" title="">
+              <span class="head">Case Fans</span>
+              <p class="headdesc">Standard Case Fans</p>
+              <span class="buttonshow" id="changeFan">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeFan1">
+                <section class="indiv2">
+                <input type="radio" name="Fans" value=0 checked>
+                <img class="thumbn" src="Images/Case_Fans/StandardCaseFans.jpg" alt="Fan" title="">
+                <p class="headdesc">Standard PSU Fans</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Fans" value=300>
+                <img class="thumbn" src="Images/Case_Fans/MagLevFansCorsair.png" alt="Fan" title="">
+                <p class="headdesc">Corsair Magnetic Leviation Fans</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Fans" value=276>
+                <img class="thumbn" src="Images/Case_Fans/NoctuaIndustrial.jpg" alt="Fan" title="">
+                <p class="headdesc">Noctua Industrial Fans (High Airflow/Static Pressure)</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Fans" value=260>
+                <img class="thumbn" src="Images/Case_Fans/SilentWings3.jpg" alt="Fan" title="">
+                <p class="headdesc">Bequiet! SilentWings3 PWM (Silent Fans)</p>
+                </section>
+              </aside>
+            </section>
+          </article>
+          <article class="sections">
+            <h2 class="sectionheader">Accessories</h2>
+            <section class="indiv">
+              <!--First part of OS-->
+              <img class="thumbn" src="Images/Software/Operating_System/Win10.jpg" alt="OS" title="Win 10 Home">
+              <span class="head">Operating System</span>
+              <p class="headdesc">Windows 10 Home</p>
+              <span class="buttonshow" id="changeOS">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeOS1">
+                <section class="indiv2">
+                <input type="radio" name="OS" value=100 checked>
+                <img class="thumbn" src="Images/Software/Operating_System/Win10.jpg" alt="OS" title="Win 10 Home">
+                <p class="headdesc">Windows 10 Home</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="OS" value=120>
+                <img class="thumbn" src="Images/Software/Operating_System/Win10Pro.jpg" alt="OS" title="Win 10 Pro">
+                <p class="headdesc">Windows 10 Pro</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="OS" value=0>
+                <img class="thumbn" src="Images/Software/Operating_System/Ubuntu.jpg" alt="OS" title="Ubuntu">
+                <p class="headdesc">Ubuntu</p>
+                </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of Office-->
+              <img class="thumbn" src="Images/Software/MS_Office/OfficeHome.jpg" alt="Office" title="Office Home">
+              <span class="head">Operating System</span>
+              <p class="headdesc">Microsoft Office Home & Student</p>
+              <span class="buttonshow" id="changeOffice">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeOffice1">
+                <section class="indiv2">
+                <input type="radio" name="Office" value=120 checked>
+                <img class="thumbn" src="Images/Software/MS_Office/OfficeHome.jpg" alt="Office" title="Office Home">
+                <p class="headdesc">Microsoft Office Home & Student</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Office" value=165>
+                <img class="thumbn" src="Images/Software/MS_Office/OfficeBusiness.jpg" alt="Office" title="Office Business">
+                <p class="headdesc">Microsoft Office Home & Business</p>
+                </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of monitors-->
+              <img class="thumbn" src="Images/Accessories/Display/VG248QE.png" alt="Monitor" title="VG248QE">
+              <span class="head">Monitor</span>
+              <p class="headdesc">Asus VG248QE</p>
+              <span class="buttonshow" id="changeMonitor">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeMonitor1">
+                <section class="indiv2">
+                <input type="radio" name="Monitor" value=400 checked>
+                <img class="thumbn" src="Images/Accessories/Display/VG248QE.png" alt="Monitor" title="VG248QE">
+                <p class="headdesc">Asus VG248QE</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Monitor" value=469>
+                <img class="thumbn" src="Images/Accessories/Display/PRISM+P270.png" alt="Monitor" title="P270">
+                <p class="headdesc">PRISM+ P270</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Monitor" value=2500>
+                <img class="thumbn" src="Images/Accessories/Display/PG27UQ.jpg" alt="Monitor" title="PG27UQ">
+                <p class="headdesc">Asus PG27UQ</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Monitor" value=1300>
+                <img class="thumbn" src="Images/Accessories/Display/PRISM+ X490.jpg" alt="Monitor" title="X490">
+                <p class="headdesc">PRISM+ X490</p>
+                </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of kb-->
+              <img class="thumbn" src="Images/Accessories/Keyboard/Mk200.jpg" alt="Keyboard" title="Mk200">
+              <span class="head">Keyboard</span>
+              <p class="headdesc">Logitech MK200</p>
+              <span class="buttonshow" id="changeKeyboard">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeKeyboard1">
+                <section class="indiv2">
+                <input type="radio" name="Keyboard" value=20 checked>
+                <img class="thumbn" src="Images/Accessories/Keyboard/Mk200.jpg" alt="Keyboard" title="Mk200">
+                <p class="headdesc">Logitech MK200</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Keyboard" value=149>
+                <img class="thumbn" src="Images/Accessories/Keyboard/ApexM750.png" alt="Keyboard" title="ApexM750">
+                <p class="headdesc">Apex M750</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Keyboard" value=180>
+                <img class="thumbn" src="Images/Accessories/Keyboard/G910.png" alt="Keyboard" title="G910">
+                <p class="headdesc">Logitech G910 Mechanical Keyboard</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Keyboard" value=230>
+                <img class="thumbn" src="Images/Accessories/Keyboard/K95.jpg" alt="Keyboard" title="K95">
+                <p class="headdesc">Corsair Vengeance K95 RGB</p>
+                </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of mouse-->
+              <img class="thumbn" src="Images/Accessories/Mouse/G502.png" alt="Mouse" title="G502">
+              <span class="head">Mouse</span>
+              <p class="headdesc">Logitech G502 Proteus Spectrum</p>
+              <span class="buttonshow" id="changeMouse">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeMouse1">
+                <section class="indiv2">
+                <input type="radio" name="Mouse" value=110 checked>
+                <img class="thumbn" src="Images/Accessories/Mouse/G502.png" alt="Mouse" title="G502">
+                <p class="headdesc">Logitech G502 Proteus Spectrum</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Mouse" value=229>
+                <img class="thumbn" src="Images/Accessories/Mouse/G903.png" alt="Mouse" title="G903">
+                <p class="headdesc">Logitech G903 Chaos Spectrum</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Mouse" value=89>
+                <img class="thumbn" src="Images/Accessories/Mouse/Rival600.png" alt="Mouse" title="Rival600">
+                <p class="headdesc">Steelseries Rival 600 mouse</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Mouse" value=99>
+                <img class="thumbn" src="Images/Accessories/Mouse/Rival650.png" alt="Mouse" title="Rival650">
+                <p class="headdesc">Steelseries Rival 650 Wireless mouse</p>
+                </section>
+              </aside>
+            </section>
+            <section class="indiv">
+              <!--First part of Audio-->
+              <img class="thumbn" src="Images/Accessories/Audio/ArctisPro.png" alt="Audio" title="ArctisPro">
+              <span class="head">Audio</span>
+              <p class="headdesc">Steelseries Arctis Pro</p>
+              <span class="buttonshow" id="changeAudio">Change</span>
+              <!--Config part -->
+              <aside class="showclick" id="changeAudio1">
+                <section class="indiv2">
+                <input type="radio" name="Audio" value=200 checked>
+                <img class="thumbn" src="Images/Accessories/Audio/ArctisPro.png" alt="Audio" title="ArctisPro">
+                <p class="headdesc">Steelseries Arctis Pro</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Audio" value=550>
+                <img class="thumbn" src="Images/Accessories/Audio/ArctisProWireless.png" alt="Audio" title="ArctisProWireless">
+                <p class="headdesc">Steelseries Arctis Pro Wireless</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Audio" value=250>
+                <img class="thumbn" src="Images/Accessories/Audio/ATHM50x.jpg" alt="Audio" title="ATHM50x">
+                <p class="headdesc">Audio Technica ATH-M50x</p>
+                </section>
+                <section class="indiv2">
+                <input type="radio" name="Audio" value=350>
+                <img class="thumbn" src="Images/Accessories/Audio/ATHR70x.jpg" alt="Audio" title="ATHR70x">
+                <p class="headdesc">Audio Technica ATH-R70x</p>
+                </section>
+              </aside>
+            </section>
+          </article>
+      </div>
+      <button class="button2">Buy</button>
+    </form>
+  </main>
+  <aside class="backtotop">
+    <button class="backtotopbutton"><span></span>
+    </button>
+  </aside>
+  <footer>
+       <p class="trademark">Copyright &copy; 2019 Hyperion <img src="Images/Logo/favicon.ico" alt="Hyperion Logo" style="padding-left: 5px;"> Computer. All Rights Reserved</p>
+     <p class="location">1 Technology Drive | Singapore 138572</p>
+  </footer>
+  <script  src="js/javascript.js"></script>
+  <script  src="js/mobilemenu.js"></script>
+  <script src="js/showcustomisation.js"></script>
+  <script src="js/smoothscroll.js"></script>
+</body>

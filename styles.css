@@ -190,7 +190,7 @@
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
-		font-size: 2.5em;
+		font-size: 2.2em;
 		margin: 60px 2.2%;
 	}
 	.product-page h1{
@@ -245,6 +245,61 @@
 	img.navimg{
 		width: 90%;
 		height: 70%;
+	}
+	.Configurator img{
+		margin: 0 25% 0 33%;
+		width: 30%;
+	}
+	img.thumbn{
+		width: 80px;
+		height: 80px;
+		margin: 0;
+		float: left;
+	}
+	.contain{
+		margin: 5% 25% 0 10%;
+		position: relative;
+	}
+	.indiv{
+		margin: 5% 0 0 0;
+		border: 1px solid #aaa;
+		padding: 5%;
+	}
+	.indiv2{
+		margin: 10% 0 0 0;
+	}
+	.sectionheader{
+		margin: 0;
+		font-size: 2.5em;
+	}
+	.sections{
+
+		padding:5%;
+	}
+	span.head{
+		display: inline-block;
+		margin-left: 10px;
+		font-size: 2.3em;
+	}
+	p.headdesc{
+		display: block;
+		padding-left: 90px;
+		margin: 1% 0 0 0;
+		font-size: 1.3em;
+	}
+	.buttonshow{
+		right: -75%;
+		border: 2px solid #000;
+		border-radius: 100px;
+		padding: 5px;
+		font-size: 1.3em;
+		cursor: pointer;
+		display: flex;
+		text-align: center;
+	}
+	.showclick{
+		display: none;
+		margin: 5% 0 0 0;
 	}
 	span.navtext{
 		bottom: 5%;
@@ -402,7 +457,19 @@ p.description{
 		font-size: 0.8em;
 		margin: 2px 2px;
 		outline:0;
-
+	}
+	.button2 {
+		border-radius: 100px;
+		background-color: #666;
+		border: none;
+		color: #FFF;
+		padding: 10px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		font-size: 1.5em;
+		margin: 2px 67%;
+		outline:0;
 	}
 	::placeholder{
 		color: #BBB;
@@ -1052,6 +1119,24 @@ p.description{
 				box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 				position: relative;
 				overflow: hidden;
+			}
+			article.price{
+				position: fixed;
+				right: 1%;
+				bottom: 50%;
+				border: 5px solid #FF4500;
+				width: 20%;
+			}
+			.buttonshow{
+				position: relative;
+				bottom:0;
+				right: -75%;
+				border: 2px solid #000;
+				border-radius: 100px;
+				padding: 5px;
+				font-size: 1.3em;
+				cursor: pointer;
+				display: inline-block;
 			}
 			.hvr-underline-from-center:before {
 				content: "";
