@@ -25,7 +25,6 @@
 		outline: none;
 	}
 	.Technology{
-
 	}
 	.part{
 		margin: 0;
@@ -39,7 +38,6 @@
 	.Buy{
 		outline: none;
 	}
-
 	#Focus{
 		margin: 1% 11%;
 		text-align: left;
@@ -52,7 +50,6 @@
 	section.Moreaboutus{
 		margin: 5% 0%;
 	}
-
 	article.top{
 		background-color: #000;
 		min-height: 130px;
@@ -75,7 +72,6 @@
 		margin-top: 25px;
 		float: right;
 		margin-right: 10%;
-
 	}
 	.dropbtn{
 		display: none;
@@ -99,12 +95,10 @@
 	#jssor_custom_pc{
 		display: none;
 	}
-
 	hr{
 		border-top: 2px solid #F00;
 		margin: 0% 20%;
 	}
-
 	.jssorb052{
 		display: none;
 	}
@@ -185,7 +179,6 @@
 		overflow: hidden;
 		background-color: #000;
 	}
-
 	.topnav a {
 		float: left;
 		display: block;
@@ -204,12 +197,10 @@
 	.product-page hr{
 		margin: 0 15%;
 	}
-
 	.active {
 		background-color: #4CAF50;
 		color: white;
 	}
-
 	.topnav .icon {
 		display: none;
 	}
@@ -221,7 +212,6 @@
 		overflow: hidden;
 		margin: 60px 0%;
 	}
-
 	.dropdown .dropbtn {
 		font-size: 2.2em;
 		border: none;
@@ -230,12 +220,10 @@
 		padding: 14px 16px;
 		background-color: inherit;
 		font-family: inherit;
-
 	}
 	img.computerPreview{
 		width: 100%;
 	}
-
 	.dropdown-content {
 		display: none;
 		position: absolute;
@@ -276,7 +264,6 @@
 		font-size: 2.5em;
 	}
 	.sections{
-
 		padding:5%;
 	}
 	span.head{
@@ -319,12 +306,10 @@
 		position: sticky;
 		text-align: left;
 	}
-
 	.topnav a:hover, .dropdown:hover .dropbtn {
 		background-color: inherit;
 		color: #FFF;
 	}
-
 	.dropdown-content a:hover {
 		background-color: #FFF;
 		color: #000;
@@ -416,7 +401,6 @@ p.description{
 		text-align: center;
 		max-width: 100%;
 	}
-
 	article h4{
 		margin: 0% 0% 3% 0%;
 	}
@@ -434,7 +418,6 @@ p.description{
 		text-align: center;
 		font-size: 1.8em;
 	}
-
 	img.hamburgpic{
 		width: 70px;
 	}
@@ -446,7 +429,6 @@ p.description{
 	}
 	form.getaquote{
 		margin: 2% 0% 2% 25%;
-
 	}
 	.button {
 		border-radius: 100px;
@@ -487,7 +469,6 @@ p.description{
 		width: 70%;
 		padding: 10px;
 	}
-
 	footer{
 		background-color: #FF4500;
 		width: 100%;
@@ -505,7 +486,6 @@ p.description{
 		position: fixed;
 		bottom: 0;
 	}
-
 /*Break Points*/
 	@media screen and (min-width: 480px), print{
 		textarea{
@@ -614,11 +594,11 @@ p.description{
     margin: auto;
     width: 90px;
     padding: 20px 0 10px 0px;
-}
+		}
 	.cpuselection h2{
 		text-decoration: none;
 		font-size: 2.4em;
-	}
+		}
 	.configbutton{
 		width: 60%;
 		position: relative;
@@ -667,7 +647,6 @@ p.description{
 		.product-page h1{
 			font-size: 4em;
 		}
-
 		p.moredesc{
 			font-size: 0.2em;
 		}
@@ -773,7 +752,6 @@ p.description{
 			width:38px;
 			height:38px;
 		}
-
 		@keyframes jssorl-009-spin {
 			from { transform: rotate(0deg); }
 			to { transform: rotate(360deg); }
@@ -821,7 +799,6 @@ p.description{
 		.slides{
 			background-color: #ffffff;
 		}
-
 		/*jssor slider bullet skin 111 css*/
 		.jssorb111{
 			position:absolute;
@@ -866,7 +843,6 @@ p.description{
 		.jssorb111 .iav .n, .jssorb111 .i:hover .n {
 			display:block;
 		}
-
 		/*jssor slider thumbnail skin 121 css*/
 		.jssort121{
 			position:absolute;
@@ -933,7 +909,6 @@ p.description{
 			content:'\a';
 			white-space:pre;
 		}
-
 		/*jssor slider bullet skin 052 css*/
 		.jssorb052{
 			position:absolute;
@@ -959,7 +934,6 @@ p.description{
 		.jssorb052 .i.idn {
 			opacity:.3;
 		}
-
 		/*jssor slider arrow skin 053 css*/
 		.jssora053 {
 			display:block;
@@ -985,7 +959,6 @@ p.description{
 			opacity:.3;
 			pointer-events:none;
 		}
-
 		#Joker{
 			position:absolute;
 			top:320px;
@@ -1114,9 +1087,7 @@ p.description{
 				text-align: left;
 			}
 		}
-
 		@media screen and (min-width: 1280px), print{
-
 			/* Underline From Center */
 			.hvr-underline-from-center {
 				display: inline-block;
@@ -1268,7 +1239,6 @@ p.description{
 					grid-template-columns: 33% 33% 33%;
 					grid-template-rows: 50% 50%;
 				}
-
 			#Zeusnavbar{
 				width: 60%;
 				padding-left: 60px;
@@ -1284,7 +1254,6 @@ p.description{
 				font-size: 1.5em;
 				max-width: 100%;
 			}
-
 			#Shopping-Cart{
 				height: 50px;
 				width: 50px;
@@ -1293,7 +1262,6 @@ p.description{
 			span.navtext{
 				font-size: 1.2em;
 			}
-
 			.dropdownimg{
 				width: 120px;
 				height: 150px;
@@ -1321,7 +1289,6 @@ p.description{
 			.BuyNow{
 				font-size: 0.8em;
 			}
-
 			main h2{
 				font-size: 2.3em;
 			}
