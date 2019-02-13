@@ -636,6 +636,7 @@ p.description{
 		border: 2px solid #FF4500;
 		border-radius: 60px;
 		height: 60px;
+		outline: none;
 		-webkit-font-smoothing: antialiased;
 	}
 	.bar{
