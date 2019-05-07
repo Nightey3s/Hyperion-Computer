@@ -1,5 +1,4 @@
-# HyperionComputerV2
-Version 2 of HyperionComputer website
+# HyperionComputer
 
 This website is made purely for academic purposes and will not be functional, please do not try to order anything through this site.
 
